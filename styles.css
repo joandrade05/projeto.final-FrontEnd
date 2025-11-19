@@ -11,7 +11,7 @@ body {
   line-height: 1.6;
 }
 
-/* Cabeçalho */
+
 header {
   background-color: #f5e1da;
   display: flex;
@@ -42,7 +42,7 @@ nav a:hover {
   color: #b76e79;
 }
 
-/* Banner */
+
 #banner img {
   width: 100%;
   height: auto;
@@ -50,7 +50,7 @@ nav a:hover {
   border-bottom: 4px solid #f5e1da;
 }
 
-/* Seções */
+
 section {
   padding: 30px 20px;
 }
@@ -60,13 +60,13 @@ h2 {
   color: #b76e79;
 }
 
-/* Lista de serviços */
+
 #servicos ul {
   list-style: disc;
   padding-left: 20px;
 }
 
-/* Formulários */
+
 form {
   display: flex;
   flex-direction: column;
@@ -97,7 +97,7 @@ button:hover {
   background-color: #a05a65;
 }
 
-/* Avaliações */
+
 #listaAvaliacoes {
   margin-top: 20px;
 }
@@ -110,7 +110,7 @@ button:hover {
   border-radius: 6px;
 }
 
-/* Antes e Depois */
+
 .comparacao {
   display: flex;
   justify-content: center;
@@ -120,12 +120,18 @@ button:hover {
 
 .comparacao img {
   width: 30%;
-  border-radius: 50%;
+  border-radius: 20px; /* Mais arredondado */
   object-fit: cover;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border: 3px solid #f5e1da; /* Borda suave em tom rosa claro */
+  transition: transform 0.3s ease;
 }
 
-/* Horário */
+.comparacao img:hover {
+  transform: scale(1.03); /* Efeito leve ao passar o mouse */
+}
+
+
 #horario ul {
   list-style: none;
   padding-left: 0;
