@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fffaf7;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #f5e1da;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 60px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #b76e79;
+}
+
+/* Banner */
+#banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 4px solid #f5e1da;
+}
+
+/* Seções */
+section {
+  padding: 30px 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #b76e79;
+}
+
+/* Lista de serviços */
+#servicos ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* Formulários */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 500px;
+}
+
+input, select, textarea, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #b76e79;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #a05a65;
+}
+
+/* Avaliações */
+#listaAvaliacoes {
+  margin-top: 20px;
+}
+
+.avaliacao {
+  background-color: #fff0f5;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-left: 4px solid #b76e79;
+  border-radius: 6px;
+}
+
+/* Antes e Depois */
+.comparacao {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.comparacao img {
+  width: 30%;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Horário */
+#horario ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#horario li {
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #555;
+}
+
+#horario .fechado {
+  color
